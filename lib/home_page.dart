@@ -20,17 +20,17 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Basic Login App",
+          "Please Login to your OLOPSC Account",
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey[700],
+        backgroundColor: Colors.blue[700],
         elevation: 4,
         shadowColor: Colors.blueGrey,
       ),
-      backgroundColor: Colors.grey[800],
+      backgroundColor: Colors.yellow[400],
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -39,20 +39,20 @@ class _HomePageState extends State<HomePage> {
               width: 250,
               child: TextField(
                 controller: _usernameController,
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.black),
                 decoration: InputDecoration(
-                  labelText: "Username",
+                  labelText: "Enter mo nga Username moq",
                   labelStyle: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderSide: BorderSide(
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ),
